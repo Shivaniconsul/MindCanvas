@@ -1,0 +1,130 @@
+body{
+    background-color: #e4ca92;
+    /* background-color: #DFBB9D; */
+    /* background-color: pink; */
+}
+.nav{
+    --bs-nav-link-hover-color:#c1b59b;
+  }
+
+.hero{
+  background-color: #e4ca92;
+}
+@media (max-width: 480px){
+  .hero{
+    margin-top: 100px;
+  }
+}
+svg{
+  margin-left: 20px;
+}
+.btn-warning{
+    background-color: white;
+    --bs-btn-active-bg:white;
+}
+
+.btn {
+  border: solid black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn:hover {
+  
+  transition: 0.3s all ease-in-out;
+  font-size: 20px;
+  color:black;
+  font-weight: bolder;
+  background-color: #c1b59b;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.nav-item{
+    padding: 0 30px 0 30px;
+
+}
+.nav-pills .nav-link {
+border: white solid;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+  border-color: #ffc107;
+  color:black;
+  font-weight: bolder;
+  background-color: #c1b59b;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: black;
+    background-color: white;
+}
+.nav-pills .nav-link.active:hover, .nav-pills .show>.nav-link:hover{
+        background-color: #c1b59b;
+        border-color: #ffc107;
+}
+.lists{
+    /* background: linear-gradient(300deg, #ffc107, pink);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite; */
+    background-color: #000000;
+}
+.social_icon{
+    display: flex;
+    list-style: none;
+    justify-content: center
+}
+
+.social_icon li a {
+    font-size: 2em;
+    color: #c1b59b;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.social_icon li a:hover {
+    transform: translateY(-15px);
+    color: #c1b59b;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+}
+.menu li a {
+    font-size: 20px;
+    color: #c1b59b;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.menu li a:hover {
+    transform: translateY(-15px);
+    color: #c1b59b;
+}
+.lists > p{
+    align-items: center;
+    padding-left: 45%;
+    font-size: 1.2rem;
+    font-family: 'Rubik Doodle Triangles';
+    margin: 0;
+    padding-bottom: 16px;
+}
+@media (max-width: 480px){
+  .lists > p {
+    padding-left: 28%;
+  }
+}
+@media (min-width: 700px) and (max-width: 1084px){
+  .lists > p {
+    padding-left: 40%;
+  }
+}
+.footer
+{
+  background-color: black;
+}
+
+
+  
